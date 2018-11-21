@@ -1,8 +1,6 @@
 'use strict';
 
-function choose_even(collection) {
 
-  //implement here
-}
 
+const choose_even = collection=>collection.filter(e=>e%2==0);
 module.exports = choose_even;
