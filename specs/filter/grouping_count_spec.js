@@ -8,7 +8,7 @@ describe('grouping_count', function() {
 
   it('从collection中计算出每个数的个数', function() {
     var result = grouping_count(collection);
-
+	console.log(result);
     expect(result).toEqual({'1':6, '2':3, '3':4, '4':2});
   })
 });
